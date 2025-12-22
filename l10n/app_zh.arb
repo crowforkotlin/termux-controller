@@ -1,0 +1,7 @@
+{
+  "consoleTitle": "Termux 控制器",
+  "console": "控制台",
+  "settingTitle": "设置中心",
+  "setting": "设置",
+  "helloWorld": "你好 Termux"
+}

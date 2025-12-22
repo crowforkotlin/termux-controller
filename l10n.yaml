@@ -1,0 +1,11 @@
+# ARB 文件的位置（你的源文件位置）
+arb-dir: l10n
+
+# 模板文件
+template-arb-file: app_zh.arb
+
+# 输出的主文件名
+output-localization-file: app_localizations.dart
+
+# 关键修改：指定生成代码的物理存放路径 (必须在 lib/ 下)
+output-dir: lib/src/generated/l10n

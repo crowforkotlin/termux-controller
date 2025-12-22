@@ -1,0 +1,7 @@
+{
+  "consoleTitle": "Termux Controller",
+  "console": "Terminal",
+  "settingTitle": "Setting Central",
+  "setting": "Setting",
+  "helloWorld": "Hello Termux"
+}
