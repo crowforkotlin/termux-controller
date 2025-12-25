@@ -9,8 +9,9 @@ class SettingPage extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
+      backgroundColor: Colors.transparent,
       appBar: AppBar(title: Text(context.loc.settingTitle)), // 使用 l10n 扩展
-      body: Text("data"),
+      body: Text("这是设置页面..."),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: const Icon(Icons.play_arrow),

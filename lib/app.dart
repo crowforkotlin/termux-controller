@@ -12,7 +12,7 @@ class App extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final goRouter = ref.watch(goRouterProvider);
+    final goRouter = ref.watch(router);
 
     return MaterialApp.router(
       routerConfig: goRouter,

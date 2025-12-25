@@ -18,7 +18,18 @@ class ConsolePage extends ConsumerWidget {
           maxLines: 1,
         ))
       ])),
-      body: Text("data"),
+      body: Card(
+        margin: const EdgeInsets.all(16),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.only(
+            topLeft: Radius.circular(20),
+            topRight: Radius.circular(20),
+            bottomLeft: Radius.circular(20),
+            bottomRight: Radius.circular(20),
+          )
+        ),
+        child: Text("data111111111"),
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: const Icon(Icons.play_arrow),
